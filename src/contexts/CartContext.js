@@ -89,7 +89,7 @@ const total=cart.reduce((accumulator,currentItem)=>{
 },0)
 setTotal(total);
 
- });
+ },[cart]);
 
   return (
     <CartContext.Provider value={{addToCart,cart,clearCart,increaseAmount,decreaseAmount

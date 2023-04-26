@@ -33,8 +33,8 @@ if(!itemProduct){
   return (
     <section className='w-full h-screen flex items-center justify-center'>
 <div className='container mx-auto'>
-  <div className='flex flex-col lg:flex-row items-center justify-center lg:gap-[15rem] py-20 lg:py-0'>
-    <div className='max-w-[200px] h-[200px] flex items-center justify-center flex-1 mb-5 lg:mb-0'><img className=
+  <div className=' border-red-800 xl:py-[120px] rounded-md xl:border-red-800 border xl:border flex flex-col lg:flex-row items-center justify-center lg:gap-[15rem] py-20 lg:py-0'>
+    <div className=' max-w-[200px] h-[200px] flex items-center justify-center flex-1 mb-5 lg:mb-0'><img className=
     "max-w-[200px] lg:max-w-[240px]" src={image} alt="" /></div>
     <div className='lg:w-[400px] w-[350px] flex flex-col justify-center lg:items-start items-center gap-2'>
       <h3 className='font-semibold text-center lg:text-start text-lg'>{title}</h3>

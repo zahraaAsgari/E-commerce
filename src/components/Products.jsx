@@ -11,7 +11,7 @@ const Products = ({product}) => {
 const {addToCart}=useContext(CartContext);
  
   return (
-  <div className='mt-[35px]'>
+  <div className='mt-[35px] max-w-screen'>
       <div  className='border border-]#e4e4e4 h-[300px] relative overflow-hidden transition group mb-3  rounded-lg'>
     <div className='w-full h-full flex justify-center items-center '>
     {/* product image */}

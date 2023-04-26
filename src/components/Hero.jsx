@@ -1,24 +1,15 @@
-import React,{useCallback} from 'react';
-
-
 
 const Hero = () => {
   return (
-    <section className="bg-banner bg-no-repeat bg-center bg-cover relative py-24 h-[700px]  ">
-      <div className='lg:w-[600px] w-[500px] absolute lg:top-[100px] lg:right-[220px] flex justify-center items-center lg:block  p-5'>
-       <div className='flex items-start justify-start flex-col '>
-<div className='flex gap-1 items-center justify-center'>
-<div className='w-[40px] border-b-2 border-red-600 mt-[10px]'></div>
-<div className='font-semibold text-lg'>New Trend</div>
-</div>
-<div>
-  <div className=' text-[90px] text-primary uppercase font-light -mt-1'>big sale</div>
-  <div className='uppercase font-bold text-[95px]'>big sale</div>
-  <div className='text-xl mt-2'>𝓾𝓷𝓵𝓸𝓬𝓴 𝔂𝓸𝓾𝓻 𝓼𝓽𝔂𝓵𝓮</div>
-</div>
-<button className='border-2 px-3 py-[0.65rem] text-sm font-semibold rounded-md mt-2 -mr-2 border-pink-800 hover:bg-pink-600 transition-all duration-200 '>Discover More...</button>
-       </div>
-      </div>
+    <section className="bg-banner bg-no-repeat bg-center bg-cover relative py-24 h-[700px] overflow-hidden ">
+    <div className="conteiner xl:mt-[150px] md:mt-[80px] flex flex-col items-center xl:items-start md:items-start xl:ml-[50px] justify-center gap-2 ">
+      <h1 className="text-3xl text-red-800 xl:ml-11 font-extrabold md:ml-11  ">new collection</h1>
+  
+  <button className="xl:w-[230px] md:w-[230px] w-[70px] h-[70px] md:h-[230px] xl:h-[230px] bg-white text-red-800 ml-5 text-[30px]  xl:text-[100px] md:text-[100px] mt-5 rounded-full ">40%
+
+  </button>
+    </div>
+
 
     </section>
   )
