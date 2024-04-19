@@ -1,12 +1,13 @@
 
 const Hero = () => {
   return (
-    <section className="bg-banner bg-no-repeat bg-center bg-cover relative py-24 h-[700px] overflow-hidden ">
-    <div className="conteiner xl:mt-[150px] md:mt-[80px] flex flex-col items-center xl:items-start md:items-start xl:ml-[50px] justify-center gap-2 ">
-      <h1 className="text-3xl text-red-800 xl:ml-11 font-extrabold md:ml-11  ">new collection</h1>
+    <section className="bg-banner bg-no-repeat bg-center bg-cover relative py-24 h-[700px] overflow-hidden flex items-center justify-end">
+    <div className="flex flex-col gap-1 font-normal uppercase lg:mx-[20%]  mx-5">
+      <span className=" md:text-6xl text-4xl md:tracking-[12px] tracking-wider" >NEW </span><br/>
+      <span className="text-6xl md:text-7xl tracking-wider md:tracking-[12px]">COLLECTION </span>
   
-  <button className="xl:w-[230px] md:w-[230px] w-[70px] h-[70px] md:h-[230px] xl:h-[230px] bg-white text-red-800 ml-5 text-[30px]  xl:text-[100px] md:text-[100px] mt-5 rounded-full ">40%
-
+  <button className="mt-8 bg-black text-white py-[0.3rem] max-w-[60%] tracking-wider">
+shop now
   </button>
     </div>
 
